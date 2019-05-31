@@ -1,5 +1,6 @@
 # concurrent
 
+``` typescript
 const requestConcurrent: RequestConcurrent = new RequestConcurrent();
 function test() {
     let ms = 100
@@ -16,7 +17,4 @@ function test() {
     }
 }
 test();
-
-
-
-
+```
